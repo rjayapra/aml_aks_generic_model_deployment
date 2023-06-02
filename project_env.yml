@@ -32,12 +32,19 @@ dependencies:
   # Currently Azure ML only supports 3.5.2 and later.
 - python=3.6.2
 - pip
+- numpy==1.18.5
+- xlrd==1.2.0
+- pandas==1.0.4
+- scikit-learn==0.23.1
 
 - pip:
-  - scikit-learn
   - azureml-core
   - flask
   - flask_restful
-  - pandas
+  - azureml-defaults
+  - azureml-sdk
+  - tensorflow==2.0.0
+  - keras==2.3.1
+  - onnxruntime==1.3.0
 channels:
 - anaconda
